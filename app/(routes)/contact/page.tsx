@@ -10,7 +10,7 @@ export default function ContactPage() {
           <section className="mb-8">
             <h2 className="text-xl font-semibold mb-4">Get in Touch</h2>
             <p className="text-muted-foreground mb-6">
-              Have questions or need assistance? We're here to help.
+              Have questions or need assistance? We&apos;re here to help.
             </p>
           </section>
 
