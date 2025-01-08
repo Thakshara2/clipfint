@@ -10,8 +10,8 @@ export default authMiddleware({
     "/refund-policy",
     "/api/webhooks(.*)",
     "/pricing",
-    "/sign-in",
-    "/sign-up"
+    "/sign-in(.*)",
+    "/sign-up(.*)"
   ],
   ignoredRoutes: [
     "/api/webhooks(.*)"
