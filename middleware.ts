@@ -8,7 +8,9 @@ const publicPaths = [
   "/terms",
   "/refund-policy",
   "/api/webhooks(.*)",
-  "/pricing"
+  "/pricing",
+  "/sign-in(.*)",
+  "/sign-up(.*)"
 ];
 
 const isPublic = createRouteMatcher(publicPaths);

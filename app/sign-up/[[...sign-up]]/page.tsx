@@ -4,6 +4,7 @@ export default function SignUpPage() {
   return (
     <div className="flex items-center justify-center min-h-screen bg-gradient-to-b from-background via-background/80 to-muted/30">
       <SignUp
+        path="/sign-up"
         appearance={{
           elements: {
             rootBox: "mx-auto",
