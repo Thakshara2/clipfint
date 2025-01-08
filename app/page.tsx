@@ -21,10 +21,10 @@ export default async function Home() {
             <div className="max-w-5xl mx-auto flex items-center justify-end h-16 px-4">
               {!isAuthenticated && (
                 <div className="flex items-center gap-4">
-                  <SignInButton>
+                  <SignInButton mode="modal">
                     <Button variant="ghost" size="sm">Sign in</Button>
                   </SignInButton>
-                  <SignUpButton>
+                  <SignUpButton mode="modal">
                     <Button size="sm">Get started</Button>
                   </SignUpButton>
                 </div>
@@ -64,10 +64,10 @@ export default async function Home() {
                       <h3 className="text-lg font-semibold mb-2">Sign in to Generate Speech</h3>
                       <p className="text-muted-foreground mb-6">Create an account or sign in to start generating natural-sounding speech.</p>
                       <div className="flex justify-center gap-4">
-                        <SignInButton>
+                        <SignInButton mode="modal">
                           <Button variant="outline">Sign in</Button>
                         </SignInButton>
-                        <SignUpButton>
+                        <SignUpButton mode="modal">
                           <Button>Get started</Button>
                         </SignUpButton>
                       </div>
