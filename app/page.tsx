@@ -21,12 +21,12 @@ export default async function Home() {
             <div className="max-w-5xl mx-auto flex items-center justify-end h-16 px-4">
               {!isAuthenticated && (
                 <div className="flex items-center gap-4">
-                  <SignInButton mode="modal">
+                  <Link href="/sign-in">
                     <Button variant="ghost" size="sm">Sign in</Button>
-                  </SignInButton>
-                  <SignUpButton mode="modal">
+                  </Link>
+                  <Link href="/sign-up">
                     <Button size="sm">Get started</Button>
-                  </SignUpButton>
+                  </Link>
                 </div>
               )}
               <ThemeToggle />
@@ -64,12 +64,12 @@ export default async function Home() {
                       <h3 className="text-lg font-semibold mb-2">Sign in to Generate Speech</h3>
                       <p className="text-muted-foreground mb-6">Create an account or sign in to start generating natural-sounding speech.</p>
                       <div className="flex justify-center gap-4">
-                        <SignInButton mode="modal">
+                        <Link href="/sign-in">
                           <Button variant="outline">Sign in</Button>
-                        </SignInButton>
-                        <SignUpButton mode="modal">
+                        </Link>
+                        <Link href="/sign-up">
                           <Button>Get started</Button>
-                        </SignUpButton>
+                        </Link>
                       </div>
                     </Card>
                   )}
