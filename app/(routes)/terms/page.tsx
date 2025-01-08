@@ -33,7 +33,7 @@ export default function TermsPage() {
 
           <h2 className="text-xl font-semibold mt-8 mb-4">5. Limitation of Liability</h2>
           <p className="text-muted-foreground mb-6">
-            VoiceForge is provided "as is" without warranties of any kind, either express or implied.
+            VoiceForge is provided &ldquo;as is&rdquo; without warranties of any kind, either express or implied.
           </p>
 
           <h2 className="text-xl font-semibold mt-8 mb-4">6. Contact</h2>
